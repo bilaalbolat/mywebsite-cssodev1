@@ -1,0 +1,279 @@
+@import url('https://fonts.googleapis.com/css2?family=Poppins:wght@500;600&display=swap');
+
+* {
+    font-family: 'Poppins', sans-serif;
+    margin: 0;
+}
+
+/************ Index ***********/
+
+/************************** Index-NavBar **************************/
+body {
+    background: rgb(242,211,119);
+    background: linear-gradient(90deg, rgba(242,211,119,1) 0%, rgba(244,234,205,1) 50%, rgba(242,211,119,1) 100%);
+    list-style-position: inside;
+}
+
+body a {
+    text-decoration: none;
+}
+
+.mainh {
+    color: #652577;
+    margin-top: 1.5rem;
+    text-align: center;
+    font-size: 5em;
+}
+
+.navbarup {
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    margin-top: 1rem;
+}
+
+.navbar ul {
+    display:flex;
+    flex-direction: row;
+    gap: calc(8rem * .4);
+    list-style-type: none;
+}
+
+.navbar ul li a {
+    text-decoration: none;
+    color: #9877a1;
+    font-size: 1.2em;
+}
+
+.navbar ul li {
+    transition: all .2s;
+}
+
+.navbar ul li:hover {
+    transform: scale(1.07);
+}
+
+/*********************** Index-Center ************************/
+
+.article1 {
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    text-align: center;
+    margin-top: 1.5rem;
+    color: #0e0c0a;
+}
+
+.article1 .p2 {
+    margin-top: 1.5rem;
+    font-size: 1em;
+}
+
+.h2 {
+    color: #a92ccc;
+    font-size: 1.6em;
+}
+
+.article2 {
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    margin-top: 1.5rem;
+    color: #0e0c0a;
+    font-size: 1em;
+}
+
+.article2 .p3 {
+    margin-top: 1.5rem;
+}
+
+.h3 {
+    color: #a92ccc;
+    font-size: 1.1em;
+}
+
+/*********************** Index-Footer *************************/
+
+.footerup {
+    display: flex;
+    flex-direction: column;
+    align-items:center;
+    margin-top: 1.5rem;
+}
+
+.footer ul {
+    display:flex;
+    flex-direction: row;
+    gap: calc(8rem * .4);
+    list-style-type: none;
+}
+
+.footer ul li a {
+    text-decoration: none;
+    color: #9877a1;
+    bottom: 0;
+    font-size: 1.2em;
+} 
+
+.footer ul li {
+    transition: all .2s;
+}
+
+.footer ul li:hover {
+    transform: scale(1.07);
+}
+
+/************ About-Us ***********/
+
+.p2-about {
+    text-align: center;
+    color: #0e0c0a;
+    font-size: 1em;
+}
+
+.p2-about a {
+    color: #740592;
+    font-size: 1em;
+}
+
+.article2-about {
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    margin-top: 1.5rem;
+    color: #0e0c0a;
+}
+
+.article2-about .p3-about {
+    margin-top: 1.5rem;
+    text-align: center;
+    font-size: .9em;
+}
+
+.h3-about {
+    color: #a92ccc;
+    font-size: 1.3em;
+}
+
+.article3-about {
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    margin-top: 1.5rem;
+    color: #0e0c0a;
+}
+
+.article3-about .p4-about {
+    margin-top: 1.5rem;
+    text-align: center;
+    font-size: .9em;
+}
+
+.h4-about {
+    color: #a92ccc;
+    font-size: 1.3em;
+}
+
+/************ Products ***********/
+
+/***************************** FlexBox *************************/
+
+.products-box {
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    margin-top: 4rem;
+    margin-bottom: 4rem;
+    
+}
+
+.flexbox{
+    height: 432px;
+    width: 896px;
+    display: flex;
+    flex-direction: column;
+    flex-wrap: wrap;
+    gap: 2rem;
+    
+}
+
+.flexbox div {
+    width: 198px;
+    border-radius: 10px;
+    background: #ebd288;
+    height: 198px;
+    transition: all .6s;
+    border: 1px solid rgb(22, 21, 21);
+}
+
+.flexbox div:hover {
+    transform: scale(1.015);
+    opacity: .75;
+}
+
+/******************************* FlexBox ****************************/
+
+#box1 {
+    height: auto;
+    margin: -.3rem auto;
+    text-align: center;
+}
+
+.p1 img {
+    width: 200px;
+}
+
+.p2 img {
+    width: 200px;
+}
+
+.p3 img {
+    padding-left: calc(2rem * .8);
+    width: auto;
+    height: 200px;
+}
+
+.p4 img {
+    width: 200px;
+    height: 200px;
+}
+
+#box4 {
+    height: auto;
+    margin: -.3rem auto;
+    text-align: center;
+}
+
+.p5 img {
+    padding-left: calc(4rem * .7);
+    width: auto;
+    height: 200px;
+}
+
+.p6 img {
+    width: 200px;
+    height: 200px;
+}
+
+#box6 {
+    height: auto;
+    margin: -.3rem auto;
+    text-align: center;
+}
+
+.p7 img {
+    padding-left: calc(3rem * .8);
+    width: auto;
+    height: 200px;
+}
+
+.p8 img {
+    height: 200px;
+    width: 200px;
+}
+
+#box8 {
+    height: auto;
+    margin: -.3rem auto;
+    text-align: center;
+}
